@@ -1,0 +1,5 @@
+for mobile view :
+
+in command prompt
+    ipconfig then,
+        write ip address to ipv4 with your last 4 (port num ex- :5500) of ut local host in your mobile browser
