@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="particles-js"></div>
+  <header>
+    <nav class="container">
+      <div class="logo">👨‍💻 Dhruv Jain</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle">☰</div>
+      <button id="themeToggle" class="theme-toggle">🌙</button>
+    </nav>
+  </header>
+
+  <section id="home" class="section home-section" style="background: linear-gradient(to right, #192122, #1daa9e); color: white; text-align: center; animation: fadeIn 2s ease-in; position: relative;">
+    <div class="container">
+      <img src="images/1675441172033.jfif" alt="Dhruv Jain" class="profile-pic" style="animation: floatIn 2.5s ease-in-out;">
+      <h1 style="animation: slideInDown 2s ease-in-out;">
+        Hi, I'm <span class="highlight" id="typing"></span>
+      </h1>
+      <p style="animation: slideInUp 2.5s ease-in-out;">Frontend Developer | React Enthusiast | Lifelong Learner</p>
+      <div class="social-icons">
+        <a href="https://github.com/dhruvjain2004" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/dhruv-jain-877543223/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="dhruvjain527@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section about-section" style="animation: fadeInUp 2s ease-in;">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hello! I'm Dhruv, a self-driven web developer with a strong foundation in HTML, CSS, JavaScript, and React. My journey started with a curiosity for how websites work, and now I love creating seamless digital experiences. Whether it’s a sleek UI or efficient functionality, I focus on building apps that users love. In my free time, I explore new frameworks and contribute to open-source projects.</p>
+    </div>
+  </section>
+
+  <section id="projects" class="section projects-section" style="animation: fadeInUp 2s ease-in;">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project">
+          <h3>📋 Todo List App</h3>
+          <p>A sleek and interactive task manager that lets users add, delete, and filter tasks in real-time. Built with React, styled with Tailwind CSS, and optimized for all devices.</p>
+          <a href="https://github.com/dhruvjain2004/Todo-react-proj">View</a>
+        </div>
+        <div class="project">
+          <h3>🌤 Weather App</h3>
+          <p>This app fetches real-time weather data based on user location or search input. It features dynamic icons, responsive design, and clean UI using vanilla JS, HTML, and CSS.</p>
+          <a href="https://github.com/dhruvjain2004/Weather-app-proj">View</a>
+        </div>
+        <div class="project">
+          <h3>💼 Portfolio Website</h3>
+          <p>You're looking at it! A responsive portfolio designed to showcase my work, skills, and contact information. Made with love using HTML, CSS, and JS animations.</p>
+          <a href="https://github.com/dhruvjain2004/my-portfolio">View</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-section" style="animation: fadeInUp 2s ease-in;">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Have a project in mind or just want to say hi? I'd love to hear from you. Fill out the form below or connect with me on my social channels.</p>
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Dhruv Jain. All rights reserved.</p>
+    </div>
+    <div id="scrollToTop" onclick="scrollToTop()">⬆️</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
